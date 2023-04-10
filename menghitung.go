@@ -1,4 +1,4 @@
-package main
+package menghitung
 
 import "fmt"
 
@@ -8,7 +8,7 @@ massa, volume float64
 
 )
 
-func main(){
+func Ngitung(){
 
 fmt.Println("masukkan massa benda :")
 
