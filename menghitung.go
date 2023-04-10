@@ -1,6 +1,6 @@
 package main
 
-import “fmt”
+import "fmt"
 
 var (
 
@@ -10,16 +10,16 @@ massa, volume float64
 
 func main(){
 
-fmt.Println(“masukkan massa benda :”)
+fmt.Println("masukkan massa benda :")
 
-fmt.Scanf(“%f”,&massa)
+fmt.Scanf("%f",&massa)
 
-fmt.Println(“masukkan volume benda :”)
+fmt.Println("masukkan volume benda :")
 
-fmt.Scanf(“%f”,&volume)
+fmt.Scanf("%f",&volume)
 
-massa_jenis:=massa/volume
+massa_jenis:= massa/volume
 
-fmt.Println(“massa jenis benda adalah :”,massa_jenis)
+fmt.Println("massa jenis benda adalah :",massa_jenis)
 
 }
